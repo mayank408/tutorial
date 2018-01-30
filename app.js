@@ -22,7 +22,7 @@ io.on('connection', function(socket){
   socket.emit('Hello','Hello from the Server');
 });
 app.listen(3055, function(){
-  console.log('listening on *:3000');
+  console.log('listening on *:6000');
 });
 
 
